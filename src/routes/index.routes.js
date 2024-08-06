@@ -9,8 +9,8 @@ const router = Router()
 
 router.get('/getUsuarios', getUsuarios)
 router.get('/getUsuariosById', getUsuarioById)
-router.put('/newUsuario', newUsuario)
-router.post('/editUsuario', editUsuario)
+router.post('/newUsuario', newUsuario)
+router.put('/editUsuario', editUsuario)
 router.delete('/deleteUsuario', deleteUsuario)
 
 module.exports = router
